@@ -1,5 +1,0 @@
-﻿订单ID,广告主,等级,产品,平台,状态,匹配分,报价,已结算
-ORD001,兰蔻旗舰店,BusinessLevel.S,兰蔻持妆粉底液,抖音,OrderStatus.PUBLISHED,90,¥2059.20,否
-ORD002,兰蔻旗舰店,BusinessLevel.S,兰蔻菁纯面霜,小红书,OrderStatus.PUBLISHED,90,¥1029.60,否
-ORD003,小米科技,BusinessLevel.A,小米14 Ultra,抖音,OrderStatus.QA_DONE,90,¥2340.00,否
-ORD004,元气森林,BusinessLevel.B,元气森林樱花限定,头条,OrderStatus.PENDING,0,¥0.00,否

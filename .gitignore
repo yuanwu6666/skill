@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+logs/
+reports/
+interaction_log_*.json
+cleanup_logs/
+*.zip
