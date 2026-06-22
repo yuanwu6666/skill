@@ -1,0 +1,217 @@
+{
+  "version": "2.1",
+  "description": "15大垂直赛道独立LUT滤镜配置，按素材绑定赛道标识自动匹配",
+  "last_updated": "2026-06-22",
+  "tracks": {
+    "美妆护肤": {
+      "key": "beauty_skincare",
+      "lut": {
+        "contrast": 1.10,
+        "saturation": 1.15,
+        "color_temp": 5800,
+        "sharpness": 1.05,
+        "exposure_comp": 0.15,
+        "highlights": 0.92,
+        "shadows": 1.08,
+        "vignette": 0.10,
+        "preset": "warm_clean"
+      }
+    },
+    "美食探店": {
+      "key": "food_explore",
+      "lut": {
+        "contrast": 1.20,
+        "saturation": 1.25,
+        "color_temp": 5400,
+        "sharpness": 1.10,
+        "exposure_comp": 0.20,
+        "highlights": 0.88,
+        "shadows": 1.12,
+        "vignette": 0.05,
+        "preset": "appetizing_warm"
+      }
+    },
+    "时尚穿搭": {
+      "key": "fashion_style",
+      "lut": {
+        "contrast": 1.05,
+        "saturation": 1.00,
+        "color_temp": 5600,
+        "sharpness": 1.08,
+        "exposure_comp": 0.10,
+        "highlights": 0.95,
+        "shadows": 1.05,
+        "vignette": 0.15,
+        "preset": "editorial_neutral"
+      }
+    },
+    "母婴育儿": {
+      "key": "parenting",
+      "lut": {
+        "contrast": 1.00,
+        "saturation": 1.10,
+        "color_temp": 6200,
+        "sharpness": 1.00,
+        "exposure_comp": 0.25,
+        "highlights": 0.90,
+        "shadows": 1.10,
+        "vignette": 0.20,
+        "preset": "soft_pastel"
+      }
+    },
+    "健身运动": {
+      "key": "fitness_sports",
+      "lut": {
+        "contrast": 1.25,
+        "saturation": 1.05,
+        "color_temp": 5200,
+        "sharpness": 1.15,
+        "exposure_comp": 0.10,
+        "highlights": 0.85,
+        "shadows": 1.15,
+        "vignette": 0.08,
+        "preset": "energetic_cool"
+      }
+    },
+    "数码3C": {
+      "key": "tech_3c",
+      "lut": {
+        "contrast": 1.15,
+        "saturation": 0.95,
+        "color_temp": 6500,
+        "sharpness": 1.20,
+        "exposure_comp": 0.05,
+        "highlights": 0.90,
+        "shadows": 1.10,
+        "vignette": 0.00,
+        "preset": "tech_cool"
+      }
+    },
+    "旅游出行": {
+      "key": "travel",
+      "lut": {
+        "contrast": 1.10,
+        "saturation": 1.20,
+        "color_temp": 5600,
+        "sharpness": 1.05,
+        "exposure_comp": 0.15,
+        "highlights": 0.92,
+        "shadows": 1.08,
+        "vignette": 0.10,
+        "preset": "cinematic_teal"
+      }
+    },
+    "家居生活": {
+      "key": "home_lifestyle",
+      "lut": {
+        "contrast": 1.05,
+        "saturation": 1.05,
+        "color_temp": 5500,
+        "sharpness": 1.03,
+        "exposure_comp": 0.20,
+        "highlights": 0.93,
+        "shadows": 1.07,
+        "vignette": 0.10,
+        "preset": "cozy_cream"
+      }
+    },
+    "汽车评测": {
+      "key": "auto_review",
+      "lut": {
+        "contrast": 1.20,
+        "saturation": 1.00,
+        "color_temp": 5300,
+        "sharpness": 1.15,
+        "exposure_comp": 0.05,
+        "highlights": 0.88,
+        "shadows": 1.12,
+        "vignette": 0.05,
+        "preset": "automotive_silver"
+      }
+    },
+    "宠物萌宠": {
+      "key": "pets",
+      "lut": {
+        "contrast": 1.00,
+        "saturation": 1.15,
+        "color_temp": 6000,
+        "sharpness": 1.02,
+        "exposure_comp": 0.25,
+        "highlights": 0.92,
+        "shadows": 1.08,
+        "vignette": 0.18,
+        "preset": "cute_glow"
+      }
+    },
+    "教育培训": {
+      "key": "education",
+      "lut": {
+        "contrast": 1.10,
+        "saturation": 0.95,
+        "color_temp": 6300,
+        "sharpness": 1.10,
+        "exposure_comp": 0.10,
+        "highlights": 0.94,
+        "shadows": 1.06,
+        "vignette": 0.00,
+        "preset": "clean_academic"
+      }
+    },
+    "游戏电竞": {
+      "key": "gaming_esports",
+      "lut": {
+        "contrast": 1.30,
+        "saturation": 1.20,
+        "color_temp": 5000,
+        "sharpness": 1.25,
+        "exposure_comp": 0.00,
+        "highlights": 0.82,
+        "shadows": 1.18,
+        "vignette": 0.15,
+        "preset": "neon_vivid"
+      }
+    },
+    "影视娱乐": {
+      "key": "entertainment",
+      "lut": {
+        "contrast": 1.15,
+        "saturation": 1.10,
+        "color_temp": 5500,
+        "sharpness": 1.08,
+        "exposure_comp": 0.10,
+        "highlights": 0.90,
+        "shadows": 1.10,
+        "vignette": 0.05,
+        "preset": "pop_vibrant"
+      }
+    },
+    "医疗健康": {
+      "key": "healthcare",
+      "lut": {
+        "contrast": 1.05,
+        "saturation": 0.95,
+        "color_temp": 6500,
+        "sharpness": 1.08,
+        "exposure_comp": 0.15,
+        "highlights": 0.94,
+        "shadows": 1.06,
+        "vignette": 0.00,
+        "preset": "clinical_clean"
+      }
+    },
+    "本地生活": {
+      "key": "local_services",
+      "lut": {
+        "contrast": 1.08,
+        "saturation": 1.10,
+        "color_temp": 5600,
+        "sharpness": 1.05,
+        "exposure_comp": 0.12,
+        "highlights": 0.93,
+        "shadows": 1.07,
+        "vignette": 0.08,
+        "preset": "friendly_warm"
+      }
+    }
+  }
+}
