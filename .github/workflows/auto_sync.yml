@@ -1,0 +1,20 @@
+name: Auto Sync Backup
+
+on:
+  push:
+    branches: [ v2.0_release ]
+
+jobs:
+  backup:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Archive source
+        run: Compress-Archive -Path . -DestinationPath MARVIS_V2.0_AutoBackup.zip
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: MARVIS_V2.0_Backup
+          path: MARVIS_V2.0_AutoBackup.zip
